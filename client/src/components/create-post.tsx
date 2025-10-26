@@ -18,7 +18,7 @@ import {
   SelectTrigger,
   SelectValue,
 } from "@/components/ui/select";
-import { X, Code, Image, Link2 } from "lucide-react";
+import { Code, Image, Link2 } from "lucide-react";
 
 interface CreatePostProps {
   onClose: () => void;
