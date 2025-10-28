@@ -1,4 +1,3 @@
-// components/create-post.tsx
 "use client";
 import { useState } from "react";
 import { Button } from "@/components/ui/button";
@@ -46,8 +45,6 @@ export function CreatePost({ onClose }: CreatePostProps) {
               <SelectContent>
                 <SelectItem value="component">Share Component</SelectItem>
                 <SelectItem value="discussion">Discussion</SelectItem>
-                <SelectItem value="tutorial">Tutorial</SelectItem>
-                <SelectItem value="update">Update</SelectItem>
               </SelectContent>
             </Select>
           </div>

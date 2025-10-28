@@ -1,4 +1,3 @@
-// app/page.tsx
 "use client";
 import { useState } from "react";
 
@@ -30,7 +29,7 @@ export default function HomePage() {
               >
                 Share a component or start a discussion...
               </Button>
-              <Button size="sm">
+              <Button size="sm" onClick={() => setShowCreatePost(true)}>
                 <Plus className="h-4 w-4 mr-2" />
                 Post
               </Button>

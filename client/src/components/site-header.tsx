@@ -31,7 +31,7 @@ export function SiteHeader() {
         <div className="mr-4 flex">
           <Link href="/" className="flex items-center space-x-2">
             <div className="h-6 w-6 bg-primary rounded-lg" />
-            <span className="font-bold text-xl">ReactVerse</span>
+            <span className="font-bold text-xl">Component Media</span>
           </Link>
         </div>
 

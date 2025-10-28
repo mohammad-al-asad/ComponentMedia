@@ -23,7 +23,7 @@ export function SiteFooter() {
           <div className="space-y-4">
             <Link href="/" className="flex items-center space-x-2">
               <div className="h-6 w-6 bg-primary rounded-lg" />
-              <span className="font-bold text-xl">ReactVerse</span>
+              <span className="font-bold text-xl">Component Media</span>
             </Link>
             <p className="text-muted-foreground text-sm max-w-xs">
               The social platform for React developers to share, discover, and collaborate on amazing UI components.
