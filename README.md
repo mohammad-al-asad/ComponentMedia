@@ -77,4 +77,4 @@ Components gain visibility through weighted scoring:
 
 ---
 
-_ReactVerse — Where great components find their audience_
+_ComponentMedia — Where great components find their audience_
