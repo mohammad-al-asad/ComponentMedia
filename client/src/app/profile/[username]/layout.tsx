@@ -8,9 +8,10 @@ interface ProfileLayoutProps {
 }
 
 export async function generateMetadata({ params }: ProfileLayoutProps): Promise<Metadata> {
+  const {username} = await params
   return {
-    title: `${params.username} - ReactVerse`,
-    description: `View ${params.username}'s profile on ReactVerse - Components, posts, and more.`,
+    title: `${username} - ReactVerse`,
+    description: `View ${username}'s profile on ReactVerse - Components, posts, and more.`,
   };
 }
 
