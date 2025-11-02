@@ -31,6 +31,7 @@ import {
   DropdownMenuTrigger,
 } from "@/components/ui/dropdown-menu";
 import { ComponentPreview } from "./component-preview";
+import Link from "next/link";
 
 interface PostAuthor {
   name: string;
@@ -163,12 +164,14 @@ export default AwesomeButton;`;
       <CardHeader className="pb-3">
         <div className="flex items-start justify-between">
           <div className="flex items-center space-x-3">
+            <Link href={`/profile/${post.author.username}`}>
             <Avatar className="h-10 w-10">
               <AvatarImage src={post.author.avatar} />
               <AvatarFallback className="bg-primary text-primary-foreground">
                 {post.author.name.charAt(0).toUpperCase()}
               </AvatarFallback>
             </Avatar>
+            </Link>
             <div className="flex-1 space-y-1">
               <div className="flex items-center space-x-2">
                 <p className="text-sm font-semibold">{post.author.name}</p>
